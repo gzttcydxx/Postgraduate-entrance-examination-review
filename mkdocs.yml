@@ -1,0 +1,110 @@
+site_name: 考研复习
+
+repo_name: 'gzttcydxx/Data-Structure'
+repo_url: 'https://github.com/gzttcydxx/Data-Structure'
+
+theme:
+  name: material
+  language: 'zh'
+  features:
+    - navigation.tabs
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      # emoji_generator: !!python/name:pymdownx.emoji.to_png
+      # emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      # emoji_generator: !!python/name:pymdownx.emoji.to_png_sprite
+      # emoji_generator: !!python/name:pymdownx.emoji.to_svg_sprite
+      # emoji_generator: !!python/name:pymdownx.emoji.to_awesome
+      # emoji_generator: !!python/name:pymdownx.emoji.to_alt
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.keys
+  # - pymdownx.progressbar
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gzttcydxx
+      name: gzttcydxx
+    - icon: fontawesome/brands/behance
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/docker
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/instagram
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/linkedin
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/medium
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/pied-piper-alt
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/product-hunt
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/slack
+      link: https://github.com/gzttcydxx
+    - icon: fontawesome/brands/twitter
+      link: https://github.com/gzttcydxx
+  search:
+    -language: jp
+
+extra_javascript:
+  # - 'js/extra.js'
+  # - 'js/baidu-tongji.js'
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
+  # - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - js/tablesort.min.js
+  # - js/MathJax.js
+  - javascripts/tablesort.js
+
+nav:
+  # - 一. 介绍: index.md
+  # - 二. 幻灯片: beamer.md
+  - 数学: 数学
+  - 专业课: 专业课
+  - 政治: 政治.md
+  - 英语: 英语
+
+copyright: Copyright &copy; 2021 - 2022 gzttcydxx
