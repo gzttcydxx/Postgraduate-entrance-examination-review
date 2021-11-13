@@ -12,6 +12,14 @@ docs/includes/footnotes.md
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+![info](https://img.shields.io/badge/左边-右边-red?style=plastic)
+
+![info](https://github-readme-stats.vercel.app/api?username=gzttcydxx&count_private=true&show_icons=true)
+
+![info](https://github-readme-stats.vercel.app/api/top-langs/?username=gzttcydxx&hide=css,html)
+
+
+
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.

@@ -98,14 +98,18 @@ extra_javascript:
   - js/tablesort.min.js
   # - js/MathJax.js
   - javascripts/tablesort.js
+  - js/pdfobject.min.js
+  - js/jquery-1.7.1.min.js
+  - js/jquery.media.js
 
 nav:
   # - 一. 介绍: index.md
   # - 二. 幻灯片: beamer.md
-  - 数学: 数学
+  - 数学: 数学/第13届数学竞赛.md
   - 专业课: 专业课
   - 政治:
-    - 史纲: 政治.md
+    - 史纲: 政治/史纲.md
+    - 毛中特: 政治/毛中特.md
   - 英语:
     - Day 1 商业经济类1: 英语/day1.md
     - Day 2 商业经济类2: 英语/day2.md
